@@ -1,2 +1,21 @@
 body h1 {
   background-color: red; }
+
+div {
+  align-items: center;
+  display: block; }
+  div .post {
+    background-image: url("/assets/bg.jpg"); }
+    div .post .postBackground {
+      width: 50%;
+      background-color: #FFFFFF; }
+      div .post .postBackground img {
+        width: 50px; }
+
+nav {
+  display: block;
+  flex-flow: row nowrap;
+  align-items: center; }
+  nav a {
+    flex: 1 1 auto;
+    background-color: blue; }

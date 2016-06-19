@@ -1,7 +1,41 @@
 //@import "public/assets/logo.svg";
 
 body {
+
   h1 {
     background-color: red;
   }
 }
+
+div{
+  align-items: center;
+  display: block;
+
+  .post{
+    background-image: url("/assets/bg.jpg");
+
+    .postBackground{
+      width: 50%;
+      background-color: #FFFFFF;
+
+      img{
+        width: 50px;
+      }
+    }
+  }
+}
+
+nav{
+    display: block;
+    flex-flow: row nowrap;
+    align-items: center;
+
+  a{
+    flex: 1 1 auto;
+    background-color: blue;
+  }
+}
+
+
+
+
