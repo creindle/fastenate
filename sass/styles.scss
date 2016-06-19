@@ -1,38 +1,42 @@
 //@import "public/assets/logo.svg";
 
 body {
-
   h1 {
+    height: 60px;
     background-color: red;
   }
 }
 
-div{
+.navigation{
+  background-color: black;
+}
+
+.container{
+  //display: block;
+  flex-flow: row wrap;
   align-items: center;
-  display: block;
+  justify-content: center;
+  background-image: url("/assets/bg.jpg");
+  // margin: 50px;
+  padding-top: 30px;
+  height: 100%;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
 
   .post{
-    background-image: url("/assets/bg.jpg");
+    flex: 0 0 300px;
+    background-color: #FFF;
 
-    .postBackground{
-      width: 50%;
-      background-color: #FFFFFF;
+    .picture{
 
       img{
         width: 50px;
+        height: 50px;
+
       }
+
     }
-  }
-}
-
-nav{
-    display: block;
-    flex-flow: row nowrap;
-    align-items: center;
-
-  a{
-    flex: 1 1 auto;
-    background-color: blue;
   }
 }
 

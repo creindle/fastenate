@@ -1,21 +1,23 @@
 body h1 {
+  height: 60px;
   background-color: red; }
 
-div {
-  align-items: center;
-  display: block; }
-  div .post {
-    background-image: url("/assets/bg.jpg"); }
-    div .post .postBackground {
-      width: 50%;
-      background-color: #FFFFFF; }
-      div .post .postBackground img {
-        width: 50px; }
+.navigation {
+  background-color: black; }
 
-nav {
-  display: block;
-  flex-flow: row nowrap;
-  align-items: center; }
-  nav a {
-    flex: 1 1 auto;
-    background-color: blue; }
+.container {
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/assets/bg.jpg");
+  padding-top: 30px;
+  height: 100%;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px; }
+  .container .post {
+    flex: 0 0 300px;
+    background-color: #FFF; }
+    .container .post .picture img {
+      width: 50px;
+      height: 50px; }
